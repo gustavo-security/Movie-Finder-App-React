@@ -1,16 +1,102 @@
-# React + Vite
+# 🎬 Movie Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida com **React** que permite buscar filmes e visualizar informações básicas utilizando a **API pública do The Movie Database (TMDB)**.
 
-Currently, two official plugins are available:
+O projeto foi criado com foco em aprendizado de React, consumo de APIs REST e gerenciamento de estado em aplicações frontend modernas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Busca de filmes por título
+- Exibição de resultados em formato de cards
+- Exibição de:
+  - Título do filme
+  - Ano de lançamento
+  - Poster (com imagem fallback quando indisponível)
+  - Sinopse
+- Mensagem orientativa antes da primeira busca
+- Mensagem de aviso quando nenhum resultado é encontrado
+- Indicador de carregamento durante a busca
+- Interface simples e responsiva
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- **React** — Construção da interface
+- **JavaScript (ES6+)** — Lógica da aplicação
+- **Vite** — Ambiente de desenvolvimento
+- **TMDB API** — Fonte dos dados dos filmes
+- **HTML5 & CSS3** — Estrutura e estilização
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+src/
+├── assets/
+│   ├── logo1.png
+│   ├── search-icon.png
+│   ├── no-image.png
+│   └── react.svg
+├── App.jsx
+├── App.css
+├── MovieCard.jsx
+├── main.jsx
+└── index.css
+```
+## ▶️ Como Executar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/gustavo-security/Movie-Finder-App-React.git
+    ```
+2. Acesse a pasta do projeto:
+    ```bash
+    cd Movie-Finder-App-React
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4.  Execute o projeto:
+    ```bash
+    npm run dev
+    ```
+5.  Acesse no navegador:
+    ```bash
+    http://localhost:5173
+    ```
+
+## 🧠 Conceitos Praticados
+- Componentização no React
+- Uso de useState para controle de estado
+- Consumo de API REST com fetch
+- Renderização condicional
+- Tratamento de estados de loading e vazio
+- Organização de arquivos em projeto React
+  
+## 📸 Preview
+
+<p align="center">
+  <img src="src/assets/preview.png" alt="Preview da aplicação" width="600">
+</p>
+
+## 📌 Status do Projeto
+
+✔️ Funcional<br>
+🚧 Em evolução
+
+## Próximas melhorias planejadas
+- Opção de filtragem de resuldados
+- Página de detalhes do filme
+- Paginação de resultados
+- Melhorias de UI/UX
+- Tratamento de erros de requisição
+
+## 👤 Autor
+
+**Gustavo Sales**<br>
+Estudante de Ciência da Computação

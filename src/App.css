@@ -44,9 +44,24 @@
 
 
 body {
-	font-family: var(--font-roboto);
-	background-color: #020323;
+  font-family: var(--font-roboto);
+  min-height: 100vh;
+
+  background-image: url("./assets/netflix-backgorund.jpg");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
 }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* controla a sombra */
+  z-index: -1;
+}
+
+
 
 .app {
 	padding: 4rem;

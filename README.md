@@ -39,6 +39,7 @@ src/
 ├── assets/
 │   ├── logo1.png
 │   ├── search-icon.png
+│   ├── netflix-backgorund.jpg
 │   ├── no-image.png
 │   └── react.svg
 ├── App.jsx

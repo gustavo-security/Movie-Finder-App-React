@@ -1,4 +1,4 @@
-# 🎬 Movie Finder App
+# Movie Finder App
 
 Aplicação web desenvolvida com **React** que permite buscar filmes e visualizar informações básicas utilizando a **API pública do The Movie Database (TMDB)**.
 
@@ -6,7 +6,7 @@ O projeto foi criado com foco em aprendizado de React, consumo de APIs REST e ge
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Busca de filmes por título
 - Exibição de resultados em formato de cards
@@ -22,7 +22,7 @@ O projeto foi criado com foco em aprendizado de React, consumo de APIs REST e ge
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **React** — Construção da interface
 - **JavaScript (ES6+)** — Lógica da aplicação
@@ -32,7 +32,7 @@ O projeto foi criado com foco em aprendizado de React, consumo de APIs REST e ge
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 src/
@@ -48,7 +48,7 @@ src/
 ├── main.jsx
 └── index.css
 ```
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clone este repositório:
    ```bash
@@ -71,7 +71,7 @@ src/
     http://localhost:5173
     ```
 
-## 🧠 Conceitos Praticados
+## Conceitos Praticados
 - Componentização no React
 - Uso de useState para controle de estado
 - Consumo de API REST com fetch
@@ -79,13 +79,13 @@ src/
 - Tratamento de estados de loading e vazio
 - Organização de arquivos em projeto React
   
-## 📸 Preview
+## Preview
 
 <p align="center">
   <img src="src/assets/preview.png" alt="Preview da aplicação" width="600">
 </p>
 
-## 📌 Status do Projeto
+## Status do Projeto
 
 ✔️ Funcional<br>
 🚧 Em evolução
